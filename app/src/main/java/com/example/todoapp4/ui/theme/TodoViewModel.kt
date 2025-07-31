@@ -1,12 +1,10 @@
 package com.example.todoapp4
 
-
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
 data class TodoItem(val title: String, val isDone: Boolean = false)
-
 
 class TodoViewModel : ViewModel() {
 
