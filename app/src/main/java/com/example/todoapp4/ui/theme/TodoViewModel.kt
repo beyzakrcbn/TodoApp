@@ -24,7 +24,6 @@ class TodoViewModel : ViewModel() {
             if (it == task) it.copy(isDone = !it.isDone) else it
         }
     }
-
     fun removeTask(item: TodoItem) {
 
         _todoList.value = _todoList.value - item
